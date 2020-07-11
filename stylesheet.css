@@ -7,7 +7,7 @@
 body{
     background-color: FFA500;
     font-family: Helvetica, sans-serif;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 #navbar{
@@ -17,7 +17,7 @@ body{
 }
 #options{
    display: block;
-   padding: 8px 16px;
+   padding: 8px 8px;
 }
 
 #welcome-section {
@@ -26,18 +26,25 @@ body{
     align-items: center;
 }
 h1{
-   font-size: 16px; 
+   font-size: 32px; 
 }
 #projects{
+    list-style-type: none;
     display: flex;
     flex-direction: row;
     align-items: center;
-    list-style-type: none;
+    
 }
 
 #Contact {
+    list-style-type: none;
     display: flex;
     flex-direction: column;
     align-items: left;
+    
+}
+
+ul{
     list-style-type: none;
+    display: flex;
 }
