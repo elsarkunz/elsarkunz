@@ -1,0 +1,43 @@
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightskyblue;
+    }
+}
+
+body{
+    background-color: FFA500;
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+#navbar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#options{
+   display: block;
+   padding: 8px 16px;
+}
+
+#welcome-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+   font-size: 16px; 
+}
+#projects{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+}
+
+#Contact {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    list-style-type: none;
+}
