@@ -3,8 +3,6 @@ html {
     font-size: 16px;
     background-color: whitesmoke;
     font-family: Helvetica, sans-serif;
-
-
 }
 
 @media only screen and (max-width: 600px) {
@@ -38,12 +36,11 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: fixed;
     align-items: center;
     height: 100vh;
 }
 #welcome-photo {
-    display: flex;
-    flex-direction: column;
     max-width: 30%;  
 }
 h1{
