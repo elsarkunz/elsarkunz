@@ -1,35 +1,50 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: whitesmoke;
+    font-family: Helvetica, sans-serif;
+
+
+}
+
 @media only screen and (max-width: 600px) {
-    body {
+    html {
         background-color: lightskyblue;
     }
 }
 
-body{
-    background-color: FFA500;
-    font-family: Helvetica, sans-serif;
-    font-size: 16px;
-}
 
-#navbar{
+/*navigation bar*/
+
+.nav {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  position: fixed;
+  width: 100%;
+  background: #FFA500;
 }
-#options{
-   display: block;
-   padding: 8px 8px;
+.nav-options{
+   display: flex;
+   margin-left: 10px;
+}
+.nav-options a{
+    display: block;
+    font-size: 16px;
+    padding: 15px;
 }
 
+.welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 #welcome-section {
     display: flex;
     flex-direction: column;
-    align-items: center;
-}
-img {
-    display: flex;
-    flex-direction: column;
-    max-width: 30%;
-    
+    max-width: 30%;  
 }
 h1{
    font-size: 32px; 
@@ -39,28 +54,32 @@ h2{
     font-size: 26px;
 }
 
-#projects{
+.projects-section{
     padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 
 }
-#project-title{
-    list-style-type: none;
-    padding: 10px;
-    display: flex;
-    justify-content: space-evenly; 
+.project-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
 }
 
-#Contact {
+.contact-section {
     list-style-type: none;
-    padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
-   
+    padding: 10px;
+    background: #FFA500
+}
+.Contacts{
+    display: flex;
+    justify-content: center;
+    width: 60%;
 }
 
 ul{
