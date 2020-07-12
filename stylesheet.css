@@ -61,10 +61,16 @@ h2{
     justify-content: space-evenly;
 
 }
+.project-tile {
+    display: flex;
+    justify-content: center;
+
+}
 .project-container{
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto;
+    text-align: center;
 }
 
 .contact-section {
