@@ -28,14 +28,19 @@ body{
 img {
     display: flex;
     flex-direction: column;
-    max-width: 50%;
+    max-width: 30%;
     
 }
 h1{
    font-size: 32px; 
 }
 
+h2{
+    font-size: 26px;
+}
+
 #projects{
+    padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -43,27 +48,22 @@ h1{
 }
 #project-title{
     list-style-type: none;
+    padding: 10px;
     display: flex;
-    flex-direction: row;
     justify-content: space-evenly; 
-    margin: 8px;
-    padding: 8px 8px;
 }
 
 #Contact {
     list-style-type: none;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
-    margin: 8px;
-    padding: 8px 8px;
-
+   
 }
 
 ul{
     list-style-type: none;
     display: flex;
-    margin: 8px;
-    padding: 8px 8px;
 }
