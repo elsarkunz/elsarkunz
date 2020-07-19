@@ -47,7 +47,8 @@ html {
     max-width: 30%;  
 }
 h1{
-   font-size: 32px; 
+   font-size: 32px;
+   padding-top: 20px; 
 }
 
 h2{
