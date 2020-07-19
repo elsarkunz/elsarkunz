@@ -39,7 +39,7 @@ html {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    z-index: -1;
+    z-index: 1;
 }
 #welcome-photo {
     max-width: 30%;  
@@ -79,6 +79,7 @@ h2{
     background: #FFA500
 }
 .Contacts{
+    padding: 0px;
     display: flex;
     justify-content: center;
     width: 100%;
