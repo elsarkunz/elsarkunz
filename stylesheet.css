@@ -18,7 +18,6 @@ html {
   list-style-type: none;
   display: flex;
   justify-content: flex-start;
-  position: fixed;
   width: 100%;
   background: #FFA500;
   z-index: 0;
@@ -42,6 +41,7 @@ html {
     align-items: center;
     height: 100vh;
     z-index: 1;
+    padding-top: 20px;
 }
 #welcome-photo {
     max-width: 30%;  
