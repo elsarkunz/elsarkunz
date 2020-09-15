@@ -3,48 +3,112 @@
     <head>
         <title>Elsa's Portfolio Page</title>
         <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
+    
     <body>
-<!--NAVIGATION BAR-->
-        <div id="navbar" class="nav">
-            <ul class="nav-options">
-                <li><a href="#welcome-section" id="options">About</a></li>
-                <li><a href="#projects" id="options">Projects</a></li>
-                <li><a href="#Contact" id="options">Contact</a></li>
-            </ul> 
+   <!--NAVIGATION BAR-->
+    <nav class="navbar navbar-inverse navbar-fixed-top" id="navbar">
+     <div class="container-fluid">
+         <ul class="nav-options">
+            <li><a href="#welcome-section" id="about">About</a></li>
+            <li><a href="#projects" id="project">Projects</a></li>
+            <li><a href="#Contact" id="contact">Contact</a></li>
+         </ul> 
+      </div>
+     </nav>
+   
+   <!--END NAVIGATION BAR-->
+   
+   <!--START WELCOME SECTION-->
+           <div class="welcome-section container-fluid" id="welcome-section">
+             <div class="row">
+               <div class="col-sm-6">
+                  <img class="img-responsive center-block" id="welcome-photo" src="https://i.pinimg.com/280x280_RS/e9/1d/9b/e91d9bcef06c2155ab46fbdd46c4b9e9.jpg"></div>
+               <div class="col-xs-12 col-sm-6">
+                 <h1 id="name">Elsa Kunz</h1>
+                 <h2 id="subtitle"> Junior Coder</h2>
+                 <h2 id="subtitle"> Francophile</h2>
+                 <h2 id="subtitle"> Humorist</h2>
+                 <button class="button button1">CV</button>
+                 <button class="button button2">Connect</button>
+               </div>
+             </div>
+   
+   <!--END WELCOME SECTION-->
+   
+   <!--START PROJECTS SECTION-->
+          <div id= "projects" class="row projects-section">
+             <h2 class="project-header"> Projects</h2>
+                <div class="responsive">
+                  <div class="gallery">
+                    <a target="_blank" href="https://codepen.io/elsarkunz/pen/JjGRgxb" class="project project-tile">
+                       <img src="https://cdn.pixabay.com/photo/2017/01/19/09/11/logo-google-1991840__480.png" alt="Google Page" width="400" height="400">
+                     </a>
+                    <div class="desc">Google Page</div>
+                      </div>
+                   </div>
+            
+            <div class="responsive">
+                  <div class="gallery">
+                    <a target="_blank" href="https://codepen.io/elsarkunz/pen/RwrgKBB">
+                       <img src="https://upload.wikimedia.org/wikipedia/commons/f/fe/Madonna%2C_Col%C3%B3n%2C_Panama.jpg" alt="Candle" width="400" height="400">
+                     </a>
+                    <div class="desc">Christena Cleveland</div>
+                      </div>
+                   </div>
+            
+            <div class="responsive">
+                  <div class="gallery">
+                    <a target="_blank" href="https://repl.it/@elsark/US-Immigration-Law-and-History-Trivia#main.py">
+                       <img src="https://cdn.pixabay.com/photo/2016/08/27/11/17/visa-1623894__480.jpg" alt="Passport" width="400" height="400">
+                     </a>
+                    <div class="desc">U.S. Immigration Game</div>
+                      </div>
+                   </div>
+            
+            <div class="responsive">
+                  <div class="gallery">
+                    <a target="_blank" href="https://codepen.io/elsarkunz/pen/OJNVPWz">
+                       <img src="https://p0.pikrepo.com/preview/944/48/bills-calculated-showing-accounts-payable-and-due.jpg" alt= "Calculator" width="400" height="400">
+                     </a>
+                    <div class="desc">Calculator</div>
+                      </div>
+            </div>  
+           </div>
+   <!--END PROJECTS SECTION-->
+   
+   <!--START CONTACT SECTION-->
+      <div id= "Contact" class="contact-section">
+        <h2 class="contact-title">Contact Me</h2></div>
+      <div class= "container-fluid p-0">
+       <div class="row contact-options">
+         <div class= "col-xs-3"></div>
+         <div class="col-xs-2">
+           <a href="https://github.com/elsarkunz" id="profile-link" target="_blank">
+             <img src="https://avatars1.githubusercontent.com/u/9919?s=200&v=4" alt="Github"  width= "50" height= "50" class= "img-responsive contact center-block">
+           </a>
+       </div>
+       <div class="col-xs-2">
+           <a href="mailto:elsarkunz@gmail.com" target="_blank">
+             <img src= "https://image.flaticon.com/icons/png/512/281/281769.png" class="img-responsive contact center-block"  width= "50" height= "50">
+           </a>
+       </div>
+       <div class="col-xs-2">
+           <a href="https://www.linkedin.com/in/elsa-kunz-b12a74107/" target="_blank">
+             <img src="https://image.flaticon.com/icons/png/512/174/174857.png" alt="LinkedIn" width= "50" height= "50" class="img-responsive contact center-block">
+           </a>
+       </div>
+         <div class="col-xs-3 center-block"></div>
+     </div>
+     <!--START FOOTER SECTION -->
+       <div class="row footer">
+         <p class="year">2020</p>
         </div>
-<!--END NAVIGATION BAR-->
-
-<!--START WELCOME SECTION-->
-        <div class="welcome-section" id="welcome-section">
-            <h1>Elsa Kunz</h1>
-            <h2 id="subtitle">Junior Coder/Humorist</h2>
-            <img id="welcome-photo" src="Screenshot_20200711-165704_2.png">
-        </div>
-
-<!--END WELCOME SECTION-->
-
-<!--START PROJECTS SECTION-->
-        <div id= "projects" class="projects-section">
-            <h2 class="project-tile">Projects</h2>
-            <div class="project-container">
-                <div class="project-item"><a href="https://codepen.io/elsarkunz/pen/JjGRgxb" target="_blank">Google-Look-Alike Page</a></div>
-                <div class="project-item"><a href="https://codepen.io/elsarkunz/pen/RwrgKBB" target="_blank">Tribute Page: Christena Cleveland</a></div>
-                <div class="project-item"><a href="https://repl.it/@elsark/US-Immigration-Law-and-History-Trivia#main.py" target="_blank">U.S. Immigration Game</a></div>
-            </div>
-        </div>
-<!--END PROJECTS SECTION-->
-
-<!--START CONTACT SECTION-->
-        <div id= "Contact" class="contact-section">
-            <h2 class="contact-title">Contact Me</h2>
-            <ul class="Contacts">
-                <li><a href="https://github.com/elsarkunz" id="profile-link" target="_blank">GitHub</a></li>
-                <li><a href="mailto:elsarkunz@gmail.com" target="_blank">Email</a> </li>
-                <li><a href="https://www.linkedin.com/in/elsa-kunz-b12a74107/" target="_blank">LinkedIn</a></li>
-            </ul>
-        </div>
-<!--END CONTACT SECTION-->
-    </body>
-</html>
+   </div>         
+   </div>
+   </div>
+   <!--END CONTACT SECTION-->
+   </body>
+   
